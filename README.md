@@ -200,10 +200,10 @@ Project ini diupload ke GitHub/GitLab dengan:
 
 ## 👨‍💻 Developer
 
-**Nama**: [Nama Mahasiswa]  
-**NIM**: [NIM]  
-**Kelas**: [Kelas]  
-**Mata Kuliah**: Pemrograman Mobile  
+**Nama**: Hilvan Yadhisnata
+**NIM**: 24552011163
+**Kelas**: TIF K 24A
+**Mata Kuliah**: Pemrograman Mobile I  
 **Pertemuan**: 5 — Form, Validation, Selection Controls
 
 ---
@@ -211,4 +211,4 @@ Project ini diupload ke GitHub/GitLab dengan:
 ## 📄 Lisensi
 
 Project ini dibuat untuk keperluan akademik.  
-© 2024 — Semua hak dilindungi.
+© 2026 — Semua hak dilindungi.
