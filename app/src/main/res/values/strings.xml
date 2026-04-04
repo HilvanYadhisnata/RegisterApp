@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    File: strings.xml
+    Deskripsi: Resource string terpusat untuk lokalisasi dan maintainability
+-->
+<resources>
+    <!-- App Name -->
+    <string name="app_name">RegisterApp</string>
+
+    <!-- Form Labels -->
+    <string name="label_nama">Nama Lengkap</string>
+    <string name="label_email">Alamat Email</string>
+    <string name="label_password">Password</string>
+    <string name="label_confirm_password">Konfirmasi Password</string>
+    <string name="label_gender">Jenis Kelamin</string>
+    <string name="label_hobi">Hobi (pilih min. 3)</string>
+    <string name="label_kota">Kota Asal</string>
+
+    <!-- Gender Options -->
+    <string name="gender_male">👨 Laki-laki</string>
+    <string name="gender_female">👩 Perempuan</string>
+
+    <!-- Hobi Options -->
+    <string name="hobi_olahraga">🏃 Olahraga</string>
+    <string name="hobi_musik">🎵 Musik</string>
+    <string name="hobi_membaca">📚 Membaca</string>
+    <string name="hobi_memasak">🍳 Memasak</string>
+    <string name="hobi_traveling">✈️ Traveling</string>
+    <string name="hobi_gaming">🎮 Gaming</string>
+
+    <!-- Buttons -->
+    <string name="btn_daftar">✓  Daftar Sekarang</string>
+    <string name="btn_reset">↺  Reset Form</string>
+    <string name="btn_dashboard">🏠  Ke Dashboard</string>
+    <string name="btn_kembali">← Daftar Akun Lain</string>
+
+    <!-- Validation Messages -->
+    <string name="error_nama_empty">Nama tidak boleh kosong</string>
+    <string name="error_nama_short">Nama minimal 3 karakter</string>
+    <string name="error_email_empty">Email tidak boleh kosong</string>
+    <string name="error_email_invalid">Format email tidak valid</string>
+    <string name="error_password_empty">Password tidak boleh kosong</string>
+    <string name="error_password_short">Password minimal 8 karakter</string>
+    <string name="error_password_no_letter">Password harus mengandung huruf</string>
+    <string name="error_password_no_digit">Password harus mengandung angka</string>
+    <string name="error_confirm_empty">Konfirmasi password tidak boleh kosong</string>
+    <string name="error_confirm_mismatch">Password tidak cocok</string>
+    <string name="error_gender">⚠ Pilih jenis kelamin terlebih dahulu</string>
+    <string name="error_hobi">⚠ Pilih minimal 3 hobi</string>
+    <string name="error_kota">⚠ Pilih kota asal terlebih dahulu</string>
+
+    <!-- Dialog -->
+    <string name="dialog_confirm_title">📋 Konfirmasi Registrasi</string>
+    <string name="dialog_confirm_positive">✓ Daftar Sekarang</string>
+    <string name="dialog_confirm_negative">✗ Periksa Kembali</string>
+    <string name="dialog_preview_title">👁 Preview Data</string>
+    <string name="dialog_reset_title">⚠ Reset Form</string>
+    <string name="dialog_reset_message">Semua data yang sudah diisi akan dihapus.\nYakin ingin mereset form?</string>
+    <string name="dialog_reset_positive">Ya, Reset</string>
+    <string name="dialog_reset_negative">Batal</string>
+
+    <!-- Success Screen -->
+    <string name="success_title">Registrasi Berhasil! 🎉</string>
+    <string name="success_subtitle">Akun Anda telah berhasil dibuat</string>
+    <string name="success_summary_title">📋  Ringkasan Data</string>
+
+    <!-- Toast Messages -->
+    <string name="toast_reset_success">✓ Form berhasil direset</string>
+    <string name="toast_navigate_login">Navigasi ke halaman Login</string>
+
+    <!-- Hints -->
+    <string name="hint_password_rule">💡 Password minimal 8 karakter, kombinasi huruf dan angka</string>
+    <string name="hint_long_press">💡 Tahan tombol untuk preview data</string>
+
+    <!-- Content Descriptions (Accessibility) -->
+    <string name="cd_app_logo">Logo Aplikasi RegisterApp</string>
+    <string name="cd_success_icon">Ikon centang registrasi berhasil</string>
+    <string name="cd_location_icon">Ikon lokasi kota</string>
+</resources>

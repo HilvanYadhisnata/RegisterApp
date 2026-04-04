@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    File: colors.xml
+    Deskripsi: Palet warna utama aplikasi RegisterApp
+    Konsep: Modern Indigo-Violet dengan aksen hangat (Amber & Teal)
+    
+    Primary   : Indigo (#5C6BC0) - profesional, kepercayaan
+    Secondary : Amber (#FFB300) - energi, kehangatan
+    Success   : Teal (#00897B) - konfirmasi, positif
+    Background: Abu-abu terang (#F5F6FA) - bersih, modern
+-->
+<resources>
+
+    <!-- ── Primary Color (Indigo) ──────────────────────────────────────────── -->
+    <color name="primary">#5C6BC0</color>
+    <color name="primary_dark">#3949AB</color>
+    <color name="primary_light">#9FA8DA</color>
+    <color name="primary_very_light">#E8EAF6</color>
+
+    <!-- ── Secondary Color (Amber) ─────────────────────────────────────────── -->
+    <color name="secondary">#FFB300</color>
+    <color name="secondary_dark">#FF8F00</color>
+    <color name="secondary_light">#FFE082</color>
+
+    <!-- ── Success Color (Teal) ─────────────────────────────────────────────── -->
+    <color name="success">#00897B</color>
+    <color name="success_dark">#00695C</color>
+    <color name="success_light">#B2DFDB</color>
+
+    <!-- ── Error Color ──────────────────────────────────────────────────────── -->
+    <color name="error">#E53935</color>
+    <color name="error_light">#FFCDD2</color>
+
+    <!-- ── Background Colors ────────────────────────────────────────────────── -->
+    <color name="bg_main">#F5F6FA</color>
+    <color name="white">#FFFFFF</color>
+    <color name="spinner_bg">#F0F1F8</color>
+
+    <!-- ── Text Colors ──────────────────────────────────────────────────────── -->
+    <color name="text_primary">#1A1A2E</color>
+    <color name="text_body">#2D3748</color>
+    <color name="text_hint">#9098B1</color>
+    <color name="text_disabled">#C4C9D4</color>
+
+    <!-- ── UI Element Colors ────────────────────────────────────────────────── -->
+    <color name="divider">#EEF0F8</color>
+    <color name="card_shadow">#1A5C6BC0</color>
+
+    <!-- ── Material Theme Required ─────────────────────────────────────────── -->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+
+</resources>

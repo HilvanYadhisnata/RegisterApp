@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    File: AndroidManifest.xml
+    Deskripsi: Manifest utama aplikasi RegisterApp
+    Mendaftarkan semua Activity dan konfigurasi aplikasi
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.registerapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@android:mipmap/sym_def_app_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@android:mipmap/sym_def_app_icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.RegisterApp">
+
+        <!--
+            MainActivity: Entry point, langsung redirect ke RegisterActivity
+        -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!--
+            RegisterActivity: Form registrasi lengkap
+            - Form input (Nama, Email, Password, Confirm Password)
+            - Selection controls (RadioGroup, CheckBox)
+            - Spinner kota
+            - Long press gesture
+        -->
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize"
+            android:screenOrientation="portrait" />
+
+        <!--
+            SuccessActivity: Halaman sukses registrasi
+            - Menampilkan ringkasan data yang didaftarkan
+            - Navigasi ke dashboard atau kembali ke form
+        -->
+        <activity
+            android:name=".SuccessActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize"
+            android:screenOrientation="portrait" />
+
+    </application>
+
+</manifest>

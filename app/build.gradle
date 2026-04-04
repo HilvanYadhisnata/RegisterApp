@@ -1,0 +1,78 @@
+// ============================================================
+// File: build.gradle (Module: app)
+// Deskripsi: Konfigurasi build dan dependency untuk RegisterApp
+// ============================================================
+
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+}
+
+android {
+    namespace 'com.example.registerapp'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.example.registerapp"
+        minSdk 24               // Android 7.0 (Nougat) ke atas
+        targetSdk 34            // Android 14
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        // Mendukung vector drawable pada API lama
+        vectorDrawables.useSupportLibrary = true
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    // Konfigurasi Java Compatibility
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    // Konfigurasi Kotlin
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+
+    // Aktifkan View Binding untuk akses view yang type-safe
+    buildFeatures {
+        viewBinding true
+    }
+}
+
+dependencies {
+    // ── AndroidX Core ─────────────────────────────────────────────────────
+    implementation 'androidx.core:core-ktx:1.12.0'
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+
+    // ── Material Design 3 ─────────────────────────────────────────────────
+    // Menyediakan: TextInputLayout, MaterialButton, MaterialCheckBox,
+    //              MaterialRadioButton, AlertDialog, dll
+    implementation 'com.google.android.material:material:1.11.0'
+
+    // ── CardView ──────────────────────────────────────────────────────────
+    implementation 'androidx.cardview:cardview:1.0.0'
+
+    // ── Lifecycle (ViewModel & LiveData) ──────────────────────────────────
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0'
+    implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.7.0'
+
+    // ── Activity & Fragment KTX ───────────────────────────────────────────
+    implementation 'androidx.activity:activity-ktx:1.8.2'
+    implementation 'androidx.fragment:fragment-ktx:1.6.2'
+
+    // ── Testing ───────────────────────────────────────────────────────────
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+}

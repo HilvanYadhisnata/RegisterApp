@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "com.example.registerapp-mergeDebugResources-37:/layout/activity_success.xml",
+        "source": "com.example.registerapp-main-40:/layout/activity_success.xml"
+    },
+    {
+        "merged": "com.example.registerapp-mergeDebugResources-37:/layout/activity_register.xml",
+        "source": "com.example.registerapp-main-40:/layout/activity_register.xml"
+    },
+    {
+        "merged": "com.example.registerapp-mergeDebugResources-37:/layout/item_data_row.xml",
+        "source": "com.example.registerapp-main-40:/layout/item_data_row.xml"
+    },
+    {
+        "merged": "com.example.registerapp-mergeDebugResources-37:/layout/spinner_item.xml",
+        "source": "com.example.registerapp-main-40:/layout/spinner_item.xml"
+    },
+    {
+        "merged": "com.example.registerapp-mergeDebugResources-37:/layout/spinner_dropdown_item.xml",
+        "source": "com.example.registerapp-main-40:/layout/spinner_dropdown_item.xml"
+    }
+]

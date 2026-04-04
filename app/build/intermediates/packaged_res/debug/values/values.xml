@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_main">#F5F6FA</color>
+    <color name="black">#FF000000</color>
+    <color name="card_shadow">#1A5C6BC0</color>
+    <color name="divider">#EEF0F8</color>
+    <color name="error">#E53935</color>
+    <color name="error_light">#FFCDD2</color>
+    <color name="primary">#5C6BC0</color>
+    <color name="primary_dark">#3949AB</color>
+    <color name="primary_light">#9FA8DA</color>
+    <color name="primary_very_light">#E8EAF6</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="secondary">#FFB300</color>
+    <color name="secondary_dark">#FF8F00</color>
+    <color name="secondary_light">#FFE082</color>
+    <color name="spinner_bg">#F0F1F8</color>
+    <color name="success">#00897B</color>
+    <color name="success_dark">#00695C</color>
+    <color name="success_light">#B2DFDB</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="text_body">#2D3748</color>
+    <color name="text_disabled">#C4C9D4</color>
+    <color name="text_hint">#9098B1</color>
+    <color name="text_primary">#1A1A2E</color>
+    <color name="white">#FFFFFF</color>
+    <string name="app_name">RegisterApp</string>
+    <string name="btn_daftar">✓  Daftar Sekarang</string>
+    <string name="btn_dashboard">🏠  Ke Dashboard</string>
+    <string name="btn_kembali">← Daftar Akun Lain</string>
+    <string name="btn_reset">↺  Reset Form</string>
+    <string name="cd_app_logo">Logo Aplikasi RegisterApp</string>
+    <string name="cd_location_icon">Ikon lokasi kota</string>
+    <string name="cd_success_icon">Ikon centang registrasi berhasil</string>
+    <string name="dialog_confirm_negative">✗ Periksa Kembali</string>
+    <string name="dialog_confirm_positive">✓ Daftar Sekarang</string>
+    <string name="dialog_confirm_title">📋 Konfirmasi Registrasi</string>
+    <string name="dialog_preview_title">👁 Preview Data</string>
+    <string name="dialog_reset_message">Semua data yang sudah diisi akan dihapus.\nYakin ingin mereset form?</string>
+    <string name="dialog_reset_negative">Batal</string>
+    <string name="dialog_reset_positive">Ya, Reset</string>
+    <string name="dialog_reset_title">⚠ Reset Form</string>
+    <string name="error_confirm_empty">Konfirmasi password tidak boleh kosong</string>
+    <string name="error_confirm_mismatch">Password tidak cocok</string>
+    <string name="error_email_empty">Email tidak boleh kosong</string>
+    <string name="error_email_invalid">Format email tidak valid</string>
+    <string name="error_gender">⚠ Pilih jenis kelamin terlebih dahulu</string>
+    <string name="error_hobi">⚠ Pilih minimal 3 hobi</string>
+    <string name="error_kota">⚠ Pilih kota asal terlebih dahulu</string>
+    <string name="error_nama_empty">Nama tidak boleh kosong</string>
+    <string name="error_nama_short">Nama minimal 3 karakter</string>
+    <string name="error_password_empty">Password tidak boleh kosong</string>
+    <string name="error_password_no_digit">Password harus mengandung angka</string>
+    <string name="error_password_no_letter">Password harus mengandung huruf</string>
+    <string name="error_password_short">Password minimal 8 karakter</string>
+    <string name="gender_female">👩 Perempuan</string>
+    <string name="gender_male">👨 Laki-laki</string>
+    <string name="hint_long_press">💡 Tahan tombol untuk preview data</string>
+    <string name="hint_password_rule">💡 Password minimal 8 karakter, kombinasi huruf dan angka</string>
+    <string name="hobi_gaming">🎮 Gaming</string>
+    <string name="hobi_memasak">🍳 Memasak</string>
+    <string name="hobi_membaca">📚 Membaca</string>
+    <string name="hobi_musik">🎵 Musik</string>
+    <string name="hobi_olahraga">🏃 Olahraga</string>
+    <string name="hobi_traveling">✈️ Traveling</string>
+    <string name="label_confirm_password">Konfirmasi Password</string>
+    <string name="label_email">Alamat Email</string>
+    <string name="label_gender">Jenis Kelamin</string>
+    <string name="label_hobi">Hobi (pilih min. 3)</string>
+    <string name="label_kota">Kota Asal</string>
+    <string name="label_nama">Nama Lengkap</string>
+    <string name="label_password">Password</string>
+    <string name="success_subtitle">Akun Anda telah berhasil dibuat</string>
+    <string name="success_summary_title">📋  Ringkasan Data</string>
+    <string name="success_title">Registrasi Berhasil! 🎉</string>
+    <string name="toast_navigate_login">Navigasi ke halaman Login</string>
+    <string name="toast_reset_success">✓ Form berhasil direset</string>
+    <style name="AlertDialogShape" parent="ShapeAppearance.MaterialComponents.MediumComponent">
+        <item name="cornerSize">20dp</item>
+    </style>
+    <style name="AlertDialogTitleStyle" parent="MaterialAlertDialog.MaterialComponents.Title.Text">
+        <item name="android:textColor">@color/primary</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">@font/poppins_bold</item>
+    </style>
+    <style name="Base.Theme.RegisterApp" parent="Theme.MaterialComponents.Light.NoActionBar">
+
+        
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+
+        
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorSecondaryVariant">@color/secondary_dark</item>
+
+        
+        <item name="android:statusBarColor">@color/primary</item>
+        <item name="android:navigationBarColor">@color/white</item>
+
+        
+        <item name="android:colorBackground">@color/bg_main</item>
+        <item name="colorSurface">@color/white</item>
+
+        
+        <item name="colorError">@color/error</item>
+
+        
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_hint</item>
+
+        
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowBackground">@color/bg_main</item>
+    </style>
+    <style name="CustomAlertDialog" parent="ThemeOverlay.MaterialComponents.MaterialAlertDialog">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="materialAlertDialogTitleTextStyle">@style/AlertDialogTitleStyle</item>
+        <item name="android:background">@color/white</item>
+        <item name="shapeAppearanceMediumComponent">@style/AlertDialogShape</item>
+    </style>
+    <style name="CustomTextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/primary</item>
+        <item name="hintTextColor">@color/primary</item>
+        <item name="boxCornerRadiusTopStart">12dp</item>
+        <item name="boxCornerRadiusTopEnd">12dp</item>
+        <item name="boxCornerRadiusBottomStart">12dp</item>
+        <item name="boxCornerRadiusBottomEnd">12dp</item>
+    </style>
+    <style name="PrimaryButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+        <item name="cornerRadius">16dp</item>
+        <item name="backgroundTint">@color/primary</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="elevation">4dp</item>
+    </style>
+    <style name="Theme.RegisterApp" parent="Base.Theme.RegisterApp"/>
+</resources>
