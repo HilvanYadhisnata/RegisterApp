@@ -83,46 +83,6 @@ RegisterApp/
 └── README.md
 ```
 
----
-
-## ⚙️ Cara Menjalankan
-
-### Prasyarat
-- Android Studio Hedgehog (2023.1.1) atau lebih baru
-- Android SDK 34 (Android 14)
-- Kotlin 1.9.22
-- JDK 17
-
-### Langkah Setup
-
-1. **Clone repository**
-   ```bash
-   git clone https://github.com/username/RegisterApp.git
-   cd RegisterApp
-   ```
-
-2. **Download Font Poppins**  
-   Unduh dari [Google Fonts - Poppins](https://fonts.google.com/specimen/Poppins)  
-   Letakkan file `.ttf` berikut di `app/src/main/res/font/`:
-   - `poppins_regular.ttf`
-   - `poppins_medium.ttf`
-   - `poppins_semibold.ttf`
-   - `poppins_bold.ttf`
-
-   **Cara alternatif di Android Studio:**
-   - Klik kanan folder `res/font` → New → Font Resource File
-   - Pilih "More Fonts" → cari "Poppins" → pilih weights 400, 500, 600, 700
-
-3. **Buka di Android Studio**
-   - File → Open → pilih folder `RegisterApp`
-   - Tunggu Gradle sync selesai
-
-4. **Build & Run**
-   - Sambungkan device atau buka emulator (API 24+)
-   - Klik tombol ▶ Run
-
----
-
 ## 📖 Penjelasan Fitur
 
 ### 01 · Complete Form
